@@ -4,7 +4,7 @@ import com.jlbank.model.role.Hero;
 
 public class ActiveSkill implements Skill {
     private String name;
-    private int damage = 1002;
+    private int damage = 10;
     private int manaCost = 10;
 
     public ActiveSkill(String name) {
