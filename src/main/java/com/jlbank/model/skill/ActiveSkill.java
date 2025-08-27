@@ -1,5 +1,7 @@
 package com.jlbank.model.skill;
 
+import com.jlbank.model.role.Hero;
+
 public class ActiveSkill implements Skill {
     private String name;
     private int damage = 10;

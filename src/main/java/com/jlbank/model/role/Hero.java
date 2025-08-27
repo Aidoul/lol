@@ -46,5 +46,8 @@ public abstract class Hero {
     public String getName() {
         return name;
     }
+
+    public void consumeMana(int manaCost) {
+    }
 }
 

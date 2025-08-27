@@ -1,5 +1,8 @@
 package com.jlbank.model.role;
 
+import com.jlbank.model.skill.ActiveSkill;
+import com.jlbank.model.skill.PassiveSkill;
+
 public class Garen extends Hero {
     public Garen() {
         super("盖伦", 100, 0, "physical"); // 无蓝条
