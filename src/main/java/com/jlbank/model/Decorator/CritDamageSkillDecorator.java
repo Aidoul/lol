@@ -8,7 +8,7 @@ public class CritDamageSkillDecorator implements Skill {
     private final Skill skill;
     private final double critChance; // 暴击率，例如 0.2 表示 20%
 
-    public CritDamageSkillDecorator(Skill skill, double critChance) {
+    public CritDamageSkillDecorator(Skill skill, double critChance, double v) {
         this.skill = skill;
         this.critChance = critChance;
     }
